@@ -91,12 +91,12 @@ namespace GameTest
         }
         public void GetInputs(KeyboardState input)
         {
-            if (input.IsKeyDown(Keys.Down) && speed < 15)
+            if (input.IsKeyDown(Keys.A) && speed < 15)
             {
                 speed += 3;
             }
 
-            if (input.IsKeyDown(Keys.Up) && speed > -20)
+            if (input.IsKeyDown(Keys.Z) && speed > -20)
             {
                 speed -= 1;
             }
